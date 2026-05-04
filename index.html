@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>동양미래대학교 로봇소프트웨어과</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Top Header -->
+    <header class="top-header">
+        <div class="container header-container">
+            <div class="logo">
+                <a href="index.html" style="display: flex; align-items: center; gap: 12px;">
+                    <i class="fa-solid fa-graduation-cap" style="color: #0056b3; font-size: 24px;"></i>
+                    <h1>동양미래대학교</h1>
+                </a>
+            </div>
+            <nav class="top-nav">
+                <a href="#">대학소개</a>
+                <a href="#">입학</a>
+                <a href="#" class="active">학부·학과</a>
+                <a href="#">학사안내</a>
+                <a href="#">대학생활</a>
+                <a href="#">대학공지</a>
+                <a href="#">대학뉴스</a>
+                <a href="#">사이트맵</a>
+                <a href="#" class="quick-menu">QUICK MENU</a>
+                <div class="lang">KR <i class="fa-solid fa-caret-down"></i></div>
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                <button class="login-btn">로그인</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sub Header -->
+    <div class="sub-header">
+        <div class="container sub-header-container">
+            <h2><a href="index.html" style="color: white;">로봇소프트웨어과</a></h2>
+            <nav class="sub-nav">
+                <a href="#">학과소개</a>
+                <a href="#">교육과정</a>
+                <a href="#">교수소개</a>
+                <a href="#">학과앨범</a>
+                <a href="#">학과공지</a>
+                <a href="#">전공동아리</a>
+                <a href="board.html">자유게시판</a>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="container main-content" id="home-view">
+        <div class="grid-layout">
+            <!-- Hero Banner -->
+            <div class="hero-banner box-shadow">
+                <div class="hero-content">
+                    <h1>로봇소프트웨어과</h1>
+                    <p>로봇소프트웨어 분야를 이끌 인재양성의 중심</p>
+                    <h2 class="ghost-text">Robot Software</h2>
+                </div>
+                <!-- Optional Robot Image here -->
+                <div class="hero-contacts">
+                    <span><i class="fa-solid fa-location-dot"></i> 4호관 206호</span>
+                    <span><i class="fa-solid fa-phone"></i> 02-2610-1832</span>
+                    <span><i class="fa-solid fa-envelope"></i> yjyang@dongyang.ac.kr</span>
+                </div>
+            </div>
+
+            <!-- Notice & Services List -->
+            <div class="right-column">
+                <!-- Notice Section -->
+                <div class="notice-section box-shadow">
+                    <div class="section-header">
+                        <h3>학과공지</h3>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <ul class="notice-list">
+                        <li>
+                            <a href="#">[반도체협회] 부트캠프 전문대학 대상 ASM 코리아 3차 채용 공고(부트캠프 대학 우선 채용)</a>
+                            <span class="date">2026.04.28</span>
+                        </li>
+                        <li>
+                            <a href="#">2026학년도 1학기 『일반 질병』 출석 인정 절차 변경 안내</a>
+                            <span class="date">2026.04.23</span>
+                        </li>
+                        <li>
+                            <a href="#">스마트팩토리실무(C4강좌) 휴보강 공지</a>
+                            <span class="date">2026.04.17</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Services Section -->
+                <div class="services-section box-shadow">
+                    <h3>주요 서비스</h3>
+                    <div class="services-grid">
+                        <a href="https://dmis.dongyang.ac.kr" target="_blank" class="service-item">
+                            <i class="fa-solid fa-globe"></i>
+                            <span>e 서비스</span>
+                        </a>
+                        <a href="https://lib.dongyang.ac.kr/" target="_blank" class="service-item">
+                            <i class="fa-solid fa-book"></i>
+                            <span>도서관</span>
+                        </a>
+                        <a href="https://dmis.dongyang.ac.kr" target="_blank" class="service-item">
+                            <i class="fa-solid fa-desktop"></i>
+                            <span>수강신청</span>
+                        </a>
+                        <a href="https://dytc.certpia.com/" target="_blank" class="service-item">
+                            <i class="fa-solid fa-file-lines"></i>
+                            <span>증명서 발급</span>
+                        </a>
+                        <a href="https://m365.dongyang.ac.kr/Pages/LoginInfo.aspx" target="_blank" class="service-item">
+                            <i class="fa-brands fa-microsoft"></i>
+                            <span>MS오피스 365</span>
+                        </a>
+                        <a href="https://doit.dongyang.ac.kr/" target="_blank" class="service-item">
+                            <i class="fa-solid fa-id-card"></i>
+                            <span>학생종합관리 DOIT</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Clubs Section -->
+            <div class="clubs-section box-shadow" style="grid-column: 1 / -1; margin-top: 20px;">
+                <div class="clubs-header">
+                    <h3>전공동아리</h3>
+                    <div class="club-tabs">
+                        <button class="active">MAS</button>
+                        <button>MCA</button>
+                        <button>MoAS</button>
+                        <button>SMART</button>
+                        <button>UR</button>
+                        <button>지능형로봇</button>
+                    </div>
+                </div>
+                <div class="club-content">
+                    <div class="club-info">
+                        <h2>MAS</h2>
+                        <p>MAS는 학교에서 배우는 것 뿐만 아니라 더 나아가 사회에 도움이 될 수 있는 로봇을 직접 만들어 각종 대회에 출전해 학생들끼리 서로 협업을 하며 자신의 전공지식과 역량을 같이 키워나가는 로봇자동화공학부 전공동아리입니다.</p>
+                    </div>
+                    <div class="club-image">
+                        <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&q=80&w=400" alt="Club Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
