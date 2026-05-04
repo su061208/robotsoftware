@@ -43,6 +43,9 @@ function showWriteModal(postId = null) {
     const contentInput = document.getElementById('post-content');
     const idInput = document.getElementById('post-id');
     const modalTitle = document.getElementById('modal-title');
+    
+    // Position modal at current scroll height for mobile compatibility
+    modal.style.top = window.scrollY + 'px';
 
     if (postId) {
         // Edit mode (Check Password)

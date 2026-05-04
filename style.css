@@ -578,13 +578,14 @@ a {
 
 /* Modal */
 .modal {
-    position: fixed;
-    top: 0; left: 0; width: 100%; height: 100%;
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 150vh;
     background: rgba(0,0,0,0.5);
     display: none;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     z-index: 1000;
+    padding-top: 10vh;
 }
 
 .modal.active {
